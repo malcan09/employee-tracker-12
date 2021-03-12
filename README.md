@@ -3,7 +3,10 @@
   [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/undefined/Employee-tracker)
   # Description
   This project allows you to manage your own company. For instance, by running this application you can add a deparment. Inside that department you can add roles (positions). Within those roles you can add the employees and their salaries. Also, there is a function created to keep your salary budget up to date. Which can be updated with the delete and update option provided on this application. It is important to mention that in order for this to work, you have to first create a department, then roles and salaries, then employees. Once you have that, you can select one of your employees as your manager.
+  
   <img src="Assets/EmployeeTracker" alt="Employee Tracker">
+  
+  
   Link to Demo Video: https://drive.google.com/file/d/1aCj8bTZSYju25tvMql3vmhv1Gd5VdP4C/view?usp=sharing
   In the video I show how to add department/role-salary/employee-manager, then I show how to see current budget and howir updates after removing employees and roles.
   # Table of Contents 
