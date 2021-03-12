@@ -3,17 +3,15 @@ const mysql = require("mysql");
 
 const connection = mysql.createConnection({
   host: "localhost",
-  // Your username
+  //Username
   user: "root",
-  // Your password
+  //Password
   password: "Hola1395",
   database: "employeeDB"
 });
 
 connection.connect();
-
-// Setting up connection.query to use promises instead of callbacks
-// This allows us to use the async/await syntax
+// Necessary to use async/await functions
 connection.query = util.promisify(connection.query);
 
 module.exports = connection;
